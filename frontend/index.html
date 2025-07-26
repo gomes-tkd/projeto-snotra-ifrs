@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Projeto Snotra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += " js";</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#equipe">Equipes</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li>
+          <a href="https://ava.ibiruba.ifrs.edu.br/course/view.php?id=525">
+            AVA <span class="arrow-black"></span>
+          </a>
+        </li>
+        <li>
+          <a data-modal="abrir" href="login.html">
+            Login <span class="arrow-black"></span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="sobre" class="grid-section sobre" data-anime="scroll">
+      <h1 class="titulo">Sobre</h1>
+      <div class="sobre-descricao">
+        <p>
+          O Projeto Snotra é uma iniciativa educacional que busca transformar a maneira como os alunos e desenvolvem habilidades essenciais para o século XXI. Criado e aplicado em escolas públicas no interior do Rio Grande do Sul, o Snotra integra o Pensamento Computacional e a Aprendizagem Baseada em Problemas, utilizando a plataforma de programação visual Scratch.
+        </p>
+        <p>
+          O Snotra promove um ambiente de aprendizado interativo, onde os alunos são protagonistas na resolução de problemas reais, aplicando conhecimentos de diversas áreas de forma prática e colaborativa.
+        </p>
+      </div>
+      <h2>Objetivos</h2>
+      <div class="sobre-descricao">
+        <ul>
+          <li>
+            Promover a Aprendizagem Contextualizada: Fomentar o aprendizado significativo sobre hábitos alimentares saudáveis, conectando conceitos de nutrição com o cotidiano dos adolescentes.
+          </li>
+          <li>
+            Desenvolver o Pensamento Computacional: Capacitar os estudantes nas habilidades de Pensamento Computacional (decomposição, reconhecimento de padrões, abstração e algoritmos) através da programação com Scratch, mesmo sem experiência prévia.
+          </li>
+          <li>
+            Estimular o Protagonismo e o Engajamento: Incentivar o papel ativo dos alunos na construção do conhecimento, aprimorando o raciocínio crítico, a criatividade e a capacidade de colaboração por meio da metodologia PBL.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid-section projetos" data-anime="scroll" id="projetos">
+      <h1 class="titulo">Projetos</h1>
+      <ul class="projetos-lista" data-tab="menu">
+        <li>
+          <img src="assets/projetos/obr-logo.jpg" alt="Projeto Vulcanbots" />
+        </li>
+        <li>
+          <img src="assets/projetos/computacao-nas-escolas.png" alt="Projeto Computação nas Escolas" />
+        </li>
+      </ul>
+      <div class="projetos-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Vulcanbots</h2>
+          <p>
+            O projeto de Robótica do IFRS - Campus Ibirubá Vulcanbots convida os alunos do Ensino Médio a mergulharem no fascinante mundo da tecnologia, com foco em habilidades de programação e engenharia. Utilizando kits de robótica e plataformas Arduino, os estudantes são desafiados a transformar ideias em realidade.
+          </p>
+          <p>
+            Nosso objetivo vai além da teoria. Buscamos estimular o interesse em STEM (Ciência, Tecnologia, Engenharia e Matemática) de forma prática e envolvente. As atividades, promovem não apenas o aprendizado técnico de programação e montagem, mas também o desenvolvimento de raciocínio lógico, a capacidade de resolução de problemas e aprimoramento do trabalho em equipe.
+          </p>
+          <p>
+            Os resultados são visíveis e motivadores. Nossos alunos já participaram de competições de robótica, onde puderam aplicar o conhecimento adquirido, testar suas criações e interagir com outras equipes, vivenciando o espírito de inovação e superação. Essas experiências são cruciais para prepará-los para os desafios do futuro, seja em cursos superiores ou no mercado de trabalho.
+          </p>
+        </section>
+
+        <section data-anime="show-right">
+          <h2>Computação nas Escolas</h2>
+          <p>
+            O projeto Computação nas Escolas, oferecido pelo IFRS - Campus Ibirubá, adota uma metodologia de ensino cujo objetivo é ensinar crianças e jovens a lógica computacional de maneira interativa e lúdica.
+          </p>
+          <p>
+            Para isso, a principal ferramenta utilizada é o Scratch, uma linguagem de programação visual desenvolvida pelo MIT, que permite a criação de histórias, jogos e animações por meio de blocos coloridos, facilitando o aprendizado dos conceitos básicos de programação sem a necessidade de digitar códigos complexos.
+          </p>
+          <p>
+            As aulas são oferecidas são destinadas a turmas do ensino fundamental e médio. Os alunos têm demonstrado interesse pela área de informática e um bom aproveitamento das lições ministradas.
+          </p>
+          <p>
+            Vale ressaltar que a lógica ensinada também será útil em outras áreas do conhecimento, como língua portuguesa e matemática, uma vez que as atividades estimulam os alunos a pensar de forma organizada e lógica, favorecendo o desenvolvimento de habilidades de interpretação e raciocínio estruturado.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!--    <section class="grid-section faq" data-anime="scroll" id="faq">-->
+    <!--      <h1 class="titulo">FAQ</h1>-->
+    <!--      <dl class="faq-lista" data-anime="accordion">-->
+    <!--        <dt>Qual a idade dos projetos?</dt>-->
+    <!--        <dd>As raposas são projetos mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>-->
+    <!--        <dt>Eles são fantásticos?</dt>-->
+    <!--        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>-->
+    <!--        <dt>Qual a diferença?</dt>-->
+    <!--        <dd>As raposas são projetos mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>-->
+    <!--        <dt>Como proteger?</dt>-->
+    <!--        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>-->
+    <!--      </dl>-->
+    <!--    </section>-->
+
+    <section id="equipe" class="grid-section equipe" data-anime="scroll">
+      <h1 class="titulo">Equipes</h1>
+      <div class="equipe-descricao">
+        <h2>Vulcanbots</h2>
+        <section class="equipe-membro">
+          <img src="./assets/professores/professora-fernanda.png" alt="Professora Doutora Fernanda" />
+          <div>
+            <h3>Professora Doutora Fernanda</h3>
+            <p>
+              Graduada em Engenharia de Computação (2011) pela Universidade Federal do Rio Grande - FURG e Mestre em Engenharia de Computação pela FURG (2013). Doutora em Educação em Ciências no Programa de Pós-graduação em Educação em Ciências: Química da vida e saúde - FURG (2018).
+            </p>
+            <p>
+              Estou trabalhando na área de inteligência artificial voltada para tecnologias persuasivas ubíquas para mudança de comportamento e aumento da motivação dos indivíduos em áreas como a eficiência energética.
+            </p>
+            <p>
+              Atualmente sou professora do IFRS e coordenadora da Ciência da Computação, também coordeno os projetos Vulcanbots e Computação nas escolas.
+            </p>
+            <p>
+              Atualmente estou fazendo doutorado em Ciência da Computação pela Universidade Federal de Pelotas - UFPel. Trabalhei na área de inteligência artificial voltada para realidade dual, virtual e mista e em simulação social por meio de sistemas multiagentes.
+            </p>
+          </div>
+        </section>
+        <section class="equipe-membro">
+          <img src="./assets/professores/professor-alexandre.webp" alt="Professora Doutora Fernanda" />
+          <div>
+            <h3>Professor Mestre Alexandre</h3>
+            <p>
+              Mestre em Tecnologias Educacionais em Rede pela Universidade Federal de Santa Maria (UFSM - 2023), Especialização em Tecnologias da Informação e da Comunicação Aplicadas à Educação (UFSM 2019), Especialização em Formação Pedagógica para Docentes da Educação Profissional Técnica e Tecnológica em Informação e Comunicação pela (CELER 2013), Bacharel em Ciência da Computação pela Universidade de Cruz Alta (UNICRUZ - 2002).
+            </p>
+            <p>
+              Atualmente é Professor EBTT do IFRS - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul.
+            </p>
+            <p>
+              Tem experiência na área de Ciência da Computação e Administração Pública. </p>
+          </div>
+        </section>
+      </div>
+      <div class="equipe-descricao">
+        <h2>Computação nas Escolas</h2>
+        <section class="equipe-membro">
+          <img src="./assets/professores/professora-adriana.png" alt="Professora Doutora Adriana" />
+          <div>
+            <h3>Professora Doutora Adriana</h3>
+            <p>
+              Possui graduação em Ciências Biológicas pela Universidade da Região da Campanha(2009), Pós graduada em Educação Ambiental pela Universidade de São Paulo(2010), em Gestão Escolar pela Faculdade São Braz(2019),Educação do Campo pela Faculdade São Braz(2019), em Escola da Terra: Educação de Comunidade do Campo, Quilombola e Indígena UFRGS(2023), Mestrado Profissional em Ensino de Ciências pela UNIPAMPA - Bagé(2016), Doutorado em Educação pela UFRGS(2024).Professora de Biologia do Instituto Federal, Ciência e Tecnologia do Rio Grande do Sul (IFRS) atuando no Campus Ibirubá. Possui experiência na gestão escolar(direção, vice- direção e supervisão).
+            </p>
+            <p>
+              Aponto como temas de interesse: ensino de ciências, interdisciplinaridade agroecologia, sustentabilidade, economia solidária, formação de professores, metodologias de ensino, teoria da complexidade, educação financeira, envelhecimento populacional e desenvolvimento humano.
+            </p>
+          </div>
+        </section>
+        <section class="equipe-membro">
+          <img src="./assets/professores/professora-fernanda.png" alt="Professora Doutora Fernanda" />
+          <div>
+            <h3>Professora Doutora Fernanda</h3>
+            <p>
+              Graduada em Engenharia de Computação (2011) pela Universidade Federal do Rio Grande - FURG e Mestre em Engenharia de Computação pela FURG (2013). Doutora em Educação em Ciências no Programa de Pós-graduação em Educação em Ciências: Química da vida e saúde - FURG (2018).
+            </p>
+            <p>
+              Estou trabalhando na área de inteligência artificial voltada para tecnologias persuasivas ubíquas para mudança de comportamento e aumento da motivação dos indivíduos em áreas como a eficiência energética.
+            </p>
+            <p>
+              Atualmente sou professora do IFRS e coordenadora da Ciência da Computação, também coordeno os projetos Vulcanbots e Computação nas escolas.
+            </p>
+            <p>
+              Atualmente estou fazendo doutorado em Ciência da Computação pela Universidade Federal de Pelotas - UFPel. Trabalhei na área de inteligência artificial voltada para realidade dual, virtual e mista e em simulação social por meio de sistemas multiagentes.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="noticias" class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="img/slide/foto1-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto2-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto3-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto4-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto5-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto6-thumb.jpg" alt=""></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="img/slide/foto1.jpg" alt=""></li>
+          <li><img src="img/slide/foto2.jpg" alt=""></li>
+          <li><img src="img/slide/foto3.jpg" alt=""></li>
+          <li><img src="img/slide/foto4.jpg" alt=""></li>
+          <li><img src="img/slide/foto5.jpg" alt=""></li>
+          <li><img src="img/slide/foto6.jpg" alt=""></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+      </div>
+    </section>
+
+    <section id="contato" class="grid-section contato" data-anime="scroll">
+      <h1 class="titulo">Contato</h1>
+      <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3351706163858!2d-53.1041624!3d-28.649681299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd68859c08cd99%3A0xd7d9e9abca5712c2!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Sul%2C%20Campus%20Ibirub%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1752294732545!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <ul class="dados">
+        <li>contato@ibiruba.ifrs.edu.br</li>
+        <li>+55 (55) 9 9999-9999</li>
+        <li>
+          R. Nelsi Ribas Fritsch, 1111 - Esperança, Ibirubá - RS, 98200-000
+        </li>
+        <li>
+          Ibirubá - RS
+        </li>
+        <li data-semana="1,2,3,4,5" data-horario="8,17">
+          Seg à Sex das 8h às 17h
+        </li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar"></button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

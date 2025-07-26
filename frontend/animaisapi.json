@@ -1,0 +1,18 @@
+[
+  {
+    "specie": "Ensino Médio",
+    "total": 320
+  },
+  {
+    "specie": "Ensino Fundamental",
+    "total": 350
+  },
+  {
+    "specie": "Olimpíadas",
+    "total": 100
+  },
+  {
+    "specie": "Total de Equipes",
+    "total": 400
+  }
+]
